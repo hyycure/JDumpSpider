@@ -20,6 +20,6 @@ jobs:
       - name: 'Upload Artifact'
         uses: actions/upload-artifact@v2
         with:
-          name: nuclei-burp-plugin-SNAPSHOT-build
-          path: target/nuclei-burp-plugin-1.0.0-SNAPSHOT-jar-with-dependencies.jar
+          name: good
+          path: target/good.jar
           retention-days: 3
